@@ -17,7 +17,7 @@ public class Record {
 
     public String get(String key){
         if(data.containsKey(key)){
-            return data.get(key);
+            return data.get(key).trim();
         }
         return null;
     }
